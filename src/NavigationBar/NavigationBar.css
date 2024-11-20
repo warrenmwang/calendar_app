@@ -1,0 +1,22 @@
+.navigation__container {
+  @apply h-10 flex justify-center gap-5;
+}
+
+.navigation__currentMonth {
+  background-color: rgb(230, 230, 230);
+  padding: 10px;
+  border-radius: 5px;
+  @apply w-32 text-center;
+}
+
+.navigation__currentMonth_invisible {
+  @apply w-32 invisible;
+}
+
+.navigation__btn {
+  @apply w-32 text-blue-700;
+}
+
+.navigation__btn_invisible {
+  @apply w-32 invisible;
+}

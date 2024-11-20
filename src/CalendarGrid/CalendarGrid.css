@@ -1,0 +1,11 @@
+.calendarGrid__container {
+  @apply grid grid-cols-7 w-2/3 mt-5;
+}
+
+.cell__yellow {
+  @apply bg-yellow-200 hover:bg-yellow-100;
+}
+
+.cell__gray {
+  @apply bg-gray-300 hover:bg-gray-200 border;
+}
